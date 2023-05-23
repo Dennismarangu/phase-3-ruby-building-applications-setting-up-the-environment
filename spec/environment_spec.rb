@@ -4,3 +4,6 @@ describe "environment.rb" do
     expect { Plant }.not_to raise_error
   end
 end
+
+require_relative '../lib/garden'
+require_relative '../lib/plant'
